@@ -38,39 +38,37 @@ body {
     font-family: var(--fonte0);
 }
 
-p {
-    margin: 15px 0px;
-    text-indent: 30px;
-}
 
 header {
-    background-image: linear-gradient(var(--cor3), var(--cor5));    
-    padding: 15px;
-    box-shadow: 2px 2px 3px 1px rgba(0, 0, 0, 0.301);
-
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor5));    
+    min-height: 150px;
+    padding-top: 40px;
+    text-align: center;
 }
 
 header>h1 {
     color: white;
-    text-align: center;
-    padding: 10px;
     font-family: var(--fonte1);
     font-size: 3em;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    font-weight: lighter;
+    font-weight: normal;
 }
 
 header>p {
     color: white;
-    text-align: center;
     text-shadow: 2px 2px 0px rgba(0, 0, 0, 0.267);
-    margin: 10px;
     font-size: 1.2em;
-    padding: 25px;
+    padding: 50px 10px 30px 10px;
+    font-family: var(--fonte0);
+    text-align: center;
+    max-width: 600px;
+    margin: auto;
 }
 
 nav {
     margin: 0px;
+    text-align: left;
+    padding-bottom: 10px;
 }
 
 nav>a {
@@ -97,6 +95,11 @@ main {
     margin: auto;
     margin-bottom: 10px;
     border-radius: 0px 0px 10px 10px;
+}
+
+article>p {
+    text-indent: 30px;
+    margin: 20px;
 }
 
 img {
@@ -203,6 +206,7 @@ ul {
 footer {
     background-color: #0f301d;
     padding: 10px;
+    margin: auto;
 }
 
 footer>p {
